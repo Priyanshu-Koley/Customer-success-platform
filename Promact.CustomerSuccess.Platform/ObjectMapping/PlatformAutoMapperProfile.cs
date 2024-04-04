@@ -43,7 +43,7 @@ public class PlatformAutoMapperProfile : Profile
         CreateMap<UpdateEscalationMatrixDto, EscalationMatrix>();
         CreateMap<EscalationMatrix, EscalationMatrixDto>().ReverseMap();
         // Mapping Sprint
-        CreateMap<UpdateSprintDto, Sprint>();
+        CreateMap<CreateSprintDto, Sprint>();
         CreateMap<Sprint, SprintDto>().ReverseMap();
         // Mapping Approved team
         CreateMap<UpdateApprovedTeamDto, ApprovedTeam>();

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Promact.CustomerSuccess.Platform.Entities;
+using System.ComponentModel.DataAnnotations;
 
 namespace Promact.CustomerSuccess.Platform.Services.Dtos.CreateDto
 {
@@ -15,6 +16,6 @@ namespace Promact.CustomerSuccess.Platform.Services.Dtos.CreateDto
         public string? Purpose { get; set; }
         public string? Goal { get; set; }
         public string? Objective { get; set; }
-        public int? MembersAssociated { get; set; }
+        public int MembersAssociated { get; set; }
     }
 }

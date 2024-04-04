@@ -2,10 +2,9 @@
 using Volo.Abp.Application.Dtos;
 using Volo.Abp.Application.Services;
 
-namespace Promact.CustomerSuccess.Platform.Services.ServiceInterface
+namespace Promact.CustomerSuccess.Platform.Services.ServiceInterfaces
 {
     public interface IProjectService : IApplicationService
     {
-
     }
 }
